@@ -35,7 +35,7 @@ return number;
 
 
 
-
+//Funktsioon kella suuruse muutmiseks
 function fontSize(){
 
   time = document.getElementById('clock').offsetWidth/4;
@@ -47,9 +47,10 @@ function fontSize(){
 window.addEventListener("click", fontSize);
 
 
+//Funktsioon kella värvi muutmiseks
 window.addEventListener('keypress', function(event){
 
-     if(event.keyCode == 32){
+     if(event.keyCode == 32){   //keyCode 32 on spacebar
        clock.style.color = "red";
 
      }
